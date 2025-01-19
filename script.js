@@ -31,7 +31,6 @@ console.log("")
 console.log("Affiche un message dans une balise div en dessous")
 console.log("Vous êtes mineur. si l'âge est inférieur à 18 | Vous êtes majeur. sinon")
 console.log("")
-console.log("")
 console.log("_________________________________________________________________________________________")
 
 
@@ -84,3 +83,23 @@ joursSemaine.push("Dimanche");
 //J'affiche le tableau complet (pour vérification)
 console.log("Tableau complet :" + " " +  joursSemaine);
 console.log("_________________________________________________________________________________________")
+
+console.log("")
+//Exercice 6 : Objets
+console.log("Exercice 6 : Créer un objet")
+console.log("")
+console.log("1. Créer un objet 'utilisateur' avec les propriétés suivantes : nom : votre prénom, age : votre âge, estConnecte :  true")
+console.log("")
+//Création de l'objet utilisateur
+let utilisateur = {
+    monNom : "Fanny",
+    age : 38,
+    estConnecte : true
+};
+
+console.log("2. Affichez la phrase suivante :")
+console.log()
+//Vérification de l'état de connexion et affichage du message
+if(utilisateur.estConnecte){
+    console.log("Bienvenue" + " " + utilisateur.monNom + " !");
+}
