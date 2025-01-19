@@ -40,3 +40,6 @@ console.log("Exercice 3 : Compter jusqu'à 10")
 console.log("")
 console.log("for (initialisation ; condition ; incrémentation) { instructions à répéter}")
 console.log("exemple :")
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
