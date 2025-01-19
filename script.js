@@ -16,9 +16,20 @@ console.log("Saez")
 console.log("3. J'affiche une phrase dans la console : Bonjour, je m'appelle [nom] [prénom].")
 console.log("Bonjour" + "," + " je m'appelle" + " " + nom + " " + prenom + ".")
 console.log("")
-console.log("")
 
 
-
+console.log("_________________________________________________________________________________________")
 //Exercice 2 : Conditions simples avec input
 console.log("Exercice 2 : Conditions simples avec input")
+console.log("")
+console.log("1. Contient un champ input où l'utilisateur peut entrer son âge.")
+console.log("")
+console.log("Contient un bouton qui, lorsqu'on clique dessus :")
+console.log("")
+console.log("Vérifie si l'utilisateur est majeur (18 ans ou plus).")
+console.log("")
+console.log("Affiche un message dans une balise div en dessous")
+console.log("Vous êtes mineur. si l'âge est inférieur à 18 | Vous êtes majeur. sinon")
+console.log("")
+console.log("")
+console.log("_________________________________________________________________________________________")
