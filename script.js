@@ -33,3 +33,10 @@ console.log("Vous êtes mineur. si l'âge est inférieur à 18 | Vous êtes maje
 console.log("")
 console.log("")
 console.log("_________________________________________________________________________________________")
+
+
+//Exercice 3 : Les Boucles
+console.log("Exercice 3 : Compter jusqu'à 10")
+console.log("")
+console.log("for (initialisation ; condition ; incrémentation) { instructions à répéter}")
+console.log("exemple :")
