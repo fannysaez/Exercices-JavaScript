@@ -65,3 +65,22 @@ console.log("")
 console.log("Affiche le résultat de la somme")
 console.log(somme);//Affiche le résultat de la somme des deux nombres
 console.log("_________________________________________________________________________________________")
+
+
+//Exercice 5 : Les Tableaux
+console.log("Exercice 5 : Manipulation de tableaux")
+console.log("")
+console.log("1. Créez un tableau contenant les jours de la semaine")
+const joursSemaine = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi"];
+console.log("let joursSemaine = [Lundi,Mardi,Mercredi,Jeudi,Vendredi,Samedi]")
+console.log("")
+console.log("2- Affichez le premier jour et le dernier jour")
+console.log("Premier jour :" + " " + joursSemaine[0]);
+console.log("Dernier jour :" + " " + joursSemaine[5]);
+console.log("")
+console.log("3- Aoutez 'Dimanche' au tableau et affichez-le")
+//J'ajoute Dimanche à la fin du tableau
+joursSemaine.push("Dimanche");
+//J'affiche le tableau complet (pour vérification)
+console.log("Tableau complet :" + " " +  joursSemaine);
+console.log("_________________________________________________________________________________________")
