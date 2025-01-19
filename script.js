@@ -39,7 +39,13 @@ console.log("___________________________________________________________________
 console.log("Exercice 3 : Compter jusqu'à 10")
 console.log("")
 console.log("for (initialisation ; condition ; incrémentation) { instructions à répéter}")
-console.log("exemple :")
+console.log("Affiche les nombres de 1 à 10")
 for (let i = 1; i <= 10; i++){
     console.log(i);
 }
+console.log("")
+console.log("_________________________________________________________________________________________")
+
+
+//Exercice 4 : Les Fonctions
+console.log("Exercice 4 : Fonction de calcul")
