@@ -111,16 +111,29 @@ console.log("Exercice 7 : Bouton interactif")
 console.log("")
 //Récupérer monBouton par son ID
 let monBouton = document.getElementById("monBouton");
-console.log("document.getElementById('monBouton') permet de sélectionner l'élément HTML ayant l'ID 'monBouton' et de le stocker dans la variable 'monBouton'")
+console.log("1- document.getElementById('monBouton') permet de sélectionner l'élément HTML ayant l'ID 'monBouton' et de le stocker dans la variable 'monBouton'")
 console.log("")
 //J'ai ajouté un écouteur d'événement "click" au bouton 
 monBouton.addEventListener("click", function() {
+    console.log("Exercice 7 : Bouton intéractif");
     console.log("Bouton cliqué !");
   }); //lorsque je clique sur le bouton intéractif, ça s'affiche "Bouton cliqué !"
-console.log("addEventListener('click', function() {...}) ajoute un 'écouteur d'événement' au bouton. Lorsqu'un clic est détecté sur le bouton, la fonction à l'intérieur est exécultée")
+console.log("2- addEventListener('click', function() {...}) ajoute un 'écouteur d'événement' au bouton. Lorsqu'un clic est détecté sur le bouton, la fonction à l'intérieur est exécultée")
 
 console.log("_________________________________________________________________________________________")
+
 console.log("")
 // Exercice 8 : Manipulation des chaînes de caractères
 console.log("Exercice 8 : Nombre de lettres")
+console.log("")
+console.log("_________________________________________________________________________________________")
+
+console.log("")
+//Devinette de l'exercice 9
+console.log("Aléatoire")
+console.log("")
+console.log("Exercice 9 : Devinette")
+
+console.log("_________________________________________________________________________________________")
+
 console.log("")
