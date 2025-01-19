@@ -58,7 +58,7 @@ function addition(nombre1, nombre2){
     return nombre1 + nombre2; //retourne leur somme
 }
 console.log("")
-console.log("J'ai déclaré la variable somme afin d'additionner les deux deux nombres")
+console.log("J'ai déclaré la variable somme afin d'additionner les deux nombres")
 console.log("let somme = addition(10, 15)")
 let somme = addition(10 , 15); //j'ai déclaré la variable somme qui additionne deux nombres
 console.log("")
