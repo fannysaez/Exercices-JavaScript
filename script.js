@@ -110,7 +110,7 @@ console.log("")
 console.log("Exercice 7 : Bouton interactif")
 console.log("")
 //Récupérer monBouton par son ID
-const monBouton = document.getElementById("monBouton");
+let monBouton = document.getElementById("monBouton");
 console.log("document.getElementById('monBouton') permet de sélectionner l'élément HTML ayant l'ID 'monBouton' et de le stocker dans la variable 'monBouton'")
 console.log("")
 //J'ai ajouté un écouteur d'événement "click" au bouton 
@@ -120,3 +120,7 @@ monBouton.addEventListener("click", function() {
 console.log("addEventListener('click', function() {...}) ajoute un 'écouteur d'événement' au bouton. Lorsqu'un clic est détecté sur le bouton, la fonction à l'intérieur est exécultée")
 
 console.log("_________________________________________________________________________________________")
+console.log("")
+// Exercice 8 : Manipulation des chaînes de caractères
+console.log("Exercice 8 : Nombre de lettres")
+console.log("")
