@@ -14,7 +14,8 @@ console.log("Saez")
 
 //Affichage d'une phrase sur ma console "Bonjour, je m'appelle [nom] [prenom]"
 console.log("3. J'affiche une phrase dans la console : Bonjour, je m'appelle [nom] [prénom].")
-console.log("Bonjour" + "," + " je m'appelle" + " " + nom + " " + prenom + ".")
+console.log("Bonjour je m\'appelle" + " " + prenom + " " + nom + ".")
+console.log(`Bonjour je m'appelle ${nom} ${prenom}`)
 console.log("")
 
 
