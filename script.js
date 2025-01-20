@@ -73,7 +73,7 @@ function addition(nombre1, nombre2){
 console.log("")
 console.log("J'ai déclaré la variable somme afin d'additionner les deux nombres")
 console.log("let somme = addition(10, 15)")
-let somme = addition(10 , 15); //j'ai déclaré la variable somme qui additionne deux nombres
+const somme = addition(10 , 15); //j'ai déclaré la variable somme qui additionne deux nombres
 console.log("")
 console.log("Affiche le résultat de la somme")
 console.log(somme);//Affiche le résultat de la somme des deux nombres
