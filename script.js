@@ -40,6 +40,7 @@ function verifierAge() {
         resultat.textContent = "Vous êtes mineur.";
     }
 }
+
 console.log("")
 console.log("Affiche un message dans une balise div en dessous")
 console.log("Vous êtes mineur. si l'âge est inférieur à 18 | Vous êtes majeur. sinon")
