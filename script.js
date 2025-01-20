@@ -32,12 +32,11 @@ console.log("")
 console.log("Condition qui va me permettre de vérifier si l'utilisateur est majeur '18 ans ou plus'")
 function verifierAge() {
     const age = document.getElementById('age').value;
-    const resultat = document.getElementById('resultat');
 
     if (age >= 18) {
-        resultat.textContent = "Vous êtes majeur.";
+        console.log ("Vous êtes majeur.")
     } else {
-        resultat.textContent = "Vous êtes mineur.";
+        console.log ("Vous êtes mineur.")
     }
 }
 
