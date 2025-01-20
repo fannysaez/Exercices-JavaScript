@@ -34,6 +34,7 @@ function verifierAge() {
     const age = document.getElementById('age').value;
 
     if (age >= 18) {
+        // alert ("Vous êtes majeur.")
         console.log ("Vous êtes majeur.")
     } else {
         console.log ("Vous êtes mineur.")
